@@ -8,13 +8,11 @@ class Codechef
 		for(int i=0; i<t; i++)
 		{
     		int x = read.nextInt();
-    		int y = read.nextInt();
-    		int a = read.nextInt();
-    		if(a>=x && a<y){
-    		    System.out.println("YES");
+    		if(x>100){
+    		    System.out.printf("%d\n",x-10);
     		}
     		else{
-    		    System.out.println("NO");
+    		    System.out.printf("%d\n",x);
     		}
 		}
 	}
